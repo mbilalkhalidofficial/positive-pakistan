@@ -327,3 +327,67 @@ body {
   transition: 300ms ease-in-out;
   color: $white;
 }
+.home__container__recent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.home__container__recent__col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1.5em;
+  flex: 1;
+  height: 350px;
+  overflow: hidden;
+}
+.home__container__recent__col:last-child {
+  margin-right: 0em;
+}
+.home__container__recent__col img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.news__card__small {
+  background-color: $white;
+  padding: 2em 1.3em;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.news__card__small__img {
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 10px;
+}
+.news__card__small__content {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.news__card__small__content__heading {
+  font-size: 16px;
+  color: $text-color;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 0.5em;
+}
+.news__card__small__content__info {
+  font-size: 14px;
+  color: $text-color;
+  text-align: right;
+}
+.news__card__small:hover {
+  transition: 300ms ease-in-out;
+  box-shadow: 0px 0px 30px rgba(50, 76, 161, 0.5);
+  background-color: $primary;
+  transform: translateY(-10px);
+}
+.news__card__small:hover .news__card__small__content__heading,
+.news__card__small:hover .news__card__small__content__info {
+  transition: 300ms ease-in-out;
+  color: $white;
+}
