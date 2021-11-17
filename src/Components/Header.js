@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu, Search, X } from "react-feather";
 import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 import logo from "../Assets/logo.svg";
 
 function NavLink({ label, path, defaultChecked }) {
@@ -50,7 +51,9 @@ export default function Header() {
   return (
     <div className="header__container">
       <div className="header__container__content">
-        <img src={logo} alt="logo" className="header__container__logo" />
+        <Link to="/">
+          <img src={logo} alt="logo" className="header__container__logo" />
+        </Link>
         <div className="header__container__nav">
           <button className="menu__btn">
             <Menu size={18} color="currentColor" />
