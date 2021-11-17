@@ -10,7 +10,7 @@ export default function NavLink({ label, path, defaultChecked }) {
         className="header__container__nav__link__input"
         name="header__container__nav__link__input"
         defaultChecked={defaultChecked}
-        onChange={() => {
+        onClick={() => {
           navigate(path);
         }}
       />
