@@ -4,7 +4,7 @@ import newsPic from "../Assets/newsPic.png";
 
 export default function NewsCard() {
   return (
-    <Link to="/" className="news__card">
+    <Link to="/news-details/news" className="news__card">
       <div className="news__card__content">
         <div className="news__card__heading">
           سلیمان کے بینک اکاؤنٹس این سی اے کا کہنا ہے کہ اسے نہیں ملا کہنا ہے کہ

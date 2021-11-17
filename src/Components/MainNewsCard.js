@@ -21,7 +21,10 @@ export default function MainNewsCard() {
           اکاؤنٹس این سی اے کا سلیمان کے بینک اکاؤنٹس این سی اے کا سلیمان کے
           بینک اکاؤنٹس این سی اے کا
         </div>
-        <Link to="/" className="main__news__card__content__btn">
+        <Link
+          to="/news-details/main"
+          className="main__news__card__content__btn"
+        >
           مزید پڑھیں
         </Link>
       </div>

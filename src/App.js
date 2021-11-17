@@ -5,6 +5,7 @@ import HomeScreen from "./Screens/HomeScreen";
 import Banner from "./Components/Banner";
 import Header from "./Components/Header";
 import NewsCatagoryScreen from "./Screens/NewsCatagoryScreen";
+import NewsDetailsScreen from "./Screens/NewsDetailsScreen";
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="catagory/:id" element={<NewsCatagoryScreen />} />
-          <Route path="hello" element={<div>hey</div>} />
+          <Route path="/news-details/:id" element={<NewsDetailsScreen />} />
         </Routes>
       </div>
     </BrowserRouter>

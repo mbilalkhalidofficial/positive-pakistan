@@ -34,12 +34,12 @@ export default function Header() {
             <SearchBar setIsSearchBarOpen={setIsSearchBarOpen} />
           ) : null}
           <NavLink label="رابط کریں" path="/contact" />
-          <NavLink label="ویڈیو" path="/" />
-          <NavLink label="تصاویر" path="/" />
-          <NavLink label="سائنس" path="/" />
-          <NavLink label="کھیل" path="/" />
-          <NavLink label="عالمی خبریں" path="/" />
-          <NavLink label="پاکستان" path="/hello" />
+          <NavLink label="ویڈیو" path="/catagory/videos" />
+          <NavLink label="تصاویر" path="/catagory/photos" />
+          <NavLink label="سائنس" path="/catagory/science" />
+          <NavLink label="کھیل" path="/catagory/play" />
+          <NavLink label="عالمی خبریں" path="/catagory/global" />
+          <NavLink label="پاکستان" path="/catagory/pakistan" />
           <NavLink label="صفحہ اول" path="/" defaultChecked={true} />
         </div>
       </div>

@@ -16,7 +16,7 @@ import NewsSmallCard from "../Components/NewsSmallCard";
 import TrendingTopicsCard from "../Components/TrendingTopicsCard";
 import NewsCatagory from "../Components/NewsCatagory";
 
-export default function NewsCatagoryScreen() {
+export default function NewsDetailsScreen() {
   return (
     <div className="container home__container">
       <div className="home__container__jumbotron">

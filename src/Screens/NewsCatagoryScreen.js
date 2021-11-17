@@ -3,6 +3,7 @@ import NewsCard from "../Components/NewsCard";
 import catagoryBackgroundImg from "../Assets/catagoryBackgroundImg.png";
 import NewsCatagory from "../Components/NewsCatagory";
 import CityCard from "../Components/CityCard";
+import RecentNewsCard from "../Components/RecentNewsCard";
 
 export default function NewsCatagoryScreen() {
   return (
@@ -18,26 +19,46 @@ export default function NewsCatagoryScreen() {
       <div className="catagory__container__content">
         <div className="home__container__trending__catagory">
           <NewsCatagory title="عا لمی خبریں" path="/global-news">
+            <div className="home__container__trending__catagory__left">
+              <RecentNewsCard />
+              <RecentNewsCard />
+              <RecentNewsCard />
+            </div>
+            <NewsCard />
+          </NewsCatagory>
+          <NewsCatagory title="عا لمی خبریں" path="/global-news">
+            <div className="home__container__trending__catagory__left">
+              <RecentNewsCard />
+              <RecentNewsCard />
+              <RecentNewsCard />
+            </div>
             <NewsCard />
             <NewsCard />
           </NewsCatagory>
           <NewsCatagory title="عا لمی خبریں" path="/global-news">
-            <NewsCard />
-            <NewsCard />
-            <NewsCard />
-          </NewsCatagory>
-          <NewsCatagory title="عا لمی خبریں" path="/global-news">
-            <NewsCard />
-            <NewsCard />
-            <NewsCard />
-          </NewsCatagory>
-          <NewsCatagory title="عا لمی خبریں" path="/global-news">
-            <NewsCard />
+            <div className="home__container__trending__catagory__left">
+              <RecentNewsCard />
+              <RecentNewsCard />
+              <RecentNewsCard />
+            </div>
             <NewsCard />
             <NewsCard />
           </NewsCatagory>
           <NewsCatagory title="عا لمی خبریں" path="/global-news">
+            <div className="home__container__trending__catagory__left">
+              <RecentNewsCard />
+              <RecentNewsCard />
+              <RecentNewsCard />
+            </div>
             <NewsCard />
+            <NewsCard />
+          </NewsCatagory>
+          <NewsCatagory title="عا لمی خبریں" path="/global-news">
+            <div className="home__container__trending__catagory__left">
+              <RecentNewsCard />
+              <RecentNewsCard />
+              <RecentNewsCard />
+            </div>
             <NewsCard />
             <NewsCard />
           </NewsCatagory>
