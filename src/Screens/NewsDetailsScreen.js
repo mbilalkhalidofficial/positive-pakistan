@@ -1,20 +1,12 @@
 import React from "react";
 import RecentNewsCard from "../Components/RecentNewsCard";
 import NewsCard from "../Components/NewsCard";
-import MainNewsCard from "../Components/MainNewsCard";
-import ad1 from "../Assets/ad1.png";
-import trending__topics__img1 from "../Assets/trending_topics/trending__topics__img1.png";
-import trending__topics__img2 from "../Assets/trending_topics/trending__topics__img2.png";
-import trending__topics__img3 from "../Assets/trending_topics/trending__topics__img3.png";
-import trending__topics__img4 from "../Assets/trending_topics/trending__topics__img4.png";
-import trending__topics__img5 from "../Assets/trending_topics/trending__topics__img5.png";
-import trending__topics__img6 from "../Assets/trending_topics/trending__topics__img6.png";
-import trending__topics__img7 from "../Assets/trending_topics/trending__topics__img7.png";
-import trending__topics__img8 from "../Assets/trending_topics/trending__topics__img8.png";
-import trending__topics__img9 from "../Assets/trending_topics/trending__topics__img9.png";
-import NewsSmallCard from "../Components/NewsSmallCard";
-import TrendingTopicsCard from "../Components/TrendingTopicsCard";
+import mainNewsPic from "../Assets/mainNewsPic.png";
 import NewsCatagory from "../Components/NewsCatagory";
+import facebook from "../Assets/facebook.svg";
+import instagram from "../Assets/instagram.svg";
+import twitter from "../Assets/twitter.svg";
+import copylink from "../Assets/copylink.svg";
 
 export default function NewsDetailsScreen() {
   return (
@@ -38,40 +30,152 @@ export default function NewsDetailsScreen() {
           <RecentNewsCard />
         </div>
         <div className="home__container__jumbotron__right">
-          <MainNewsCard />
-          <div className="home__container__jumbotron__bottom">
-            <NewsCard />
-            <NewsCard />
-            <NewsCard />
+          <img
+            src={mainNewsPic}
+            alt="mainNewsPic"
+            className="home__container__jumbotron__img"
+          />
+          <div className="home__container__jumbotron__content">
+            <div className="home__container__jumbotron__content__header">
+              <div className="home__container__jumbotron__content__header__btns">
+                <button className="home__container__jumbotron__content__header__btn">
+                  <img
+                    src={facebook}
+                    alt="facebook"
+                    className="home__container__jumbotron__content__header__btn__img"
+                  />
+                </button>
+                <button className="home__container__jumbotron__content__header__btn">
+                  <img
+                    src={instagram}
+                    alt="facebook"
+                    className="home__container__jumbotron__content__header__btn__img"
+                  />
+                </button>
+                <button className="home__container__jumbotron__content__header__btn">
+                  <img
+                    src={twitter}
+                    alt="facebook"
+                    className="home__container__jumbotron__content__header__btn__img"
+                  />
+                </button>
+                <button className="home__container__jumbotron__content__header__btn">
+                  <img
+                    src={copylink}
+                    alt="facebook"
+                    className="home__container__jumbotron__content__header__btn__img"
+                  />
+                </button>
+              </div>
+              <div className="home__container__jumbotron__content__header__heading">
+                حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              </div>
+            </div>
+            <div className="home__container__jumbotron__content__info">
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+              حکومت اور مسلم لیگ (ن) میں شریفوں کے بارے میں برطانیہ کی عدالت
+            </div>
           </div>
         </div>
       </div>
       <div className="home__container__trending__catagory">
-        <NewsCatagory title="عا لمی خبریں" path="/global-news">
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-        </NewsCatagory>
-        <NewsCatagory title="عا لمی خبریں" path="/global-news">
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-        </NewsCatagory>
-        <NewsCatagory title="عا لمی خبریں" path="/global-news">
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-        </NewsCatagory>
-        <NewsCatagory title="عا لمی خبریں" path="/global-news">
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-        </NewsCatagory>
-        <NewsCatagory title="عا لمی خبریں" path="/global-news">
+        <NewsCatagory title="عا لمی خبریں">
           <NewsCard />
           <NewsCard />
           <NewsCard />
