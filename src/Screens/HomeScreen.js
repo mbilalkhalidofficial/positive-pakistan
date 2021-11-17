@@ -14,7 +14,6 @@ import trending__topics__img8 from "../Assets/trending_topics/trending__topics__
 import trending__topics__img9 from "../Assets/trending_topics/trending__topics__img9.png";
 import NewsSmallCard from "../Components/NewsSmallCard";
 import TrendingTopicsCard from "../Components/TrendingTopicsCard";
-import { Link } from "react-router-dom";
 import NewsCatagory from "../Components/NewsCatagory";
 
 export default function HomeScreen() {
