@@ -17,25 +17,28 @@ import TrendingTopicsCard from "../Components/TrendingTopicsCard";
 import NewsCatagory from "../Components/NewsCatagory";
 
 export default function HomeScreen() {
+  const array = [
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+    { id: "12" },
+  ];
   return (
     <div className="container home__container">
       <div className="home__container__jumbotron">
         <div className="home__container__jumbotron__left">
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
-          <RecentNewsCard />
+          {array.map((item, i) => (
+            <RecentNewsCard key={i} item={item} />
+          ))}
         </div>
         <div className="home__container__jumbotron__right">
           <MainNewsCard />
