@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Menu, Search } from "react-feather";
 import { Link } from "react-router-dom";
 import logo from "../Assets/logo.svg";
@@ -7,10 +7,29 @@ import SearchBar from "./SearchBar";
 
 export default function Header() {
   const [isSearchBarOpen, setIsSearchBarOpen] = useState(false);
+  useEffect(() => {
+    if (window.innerWidth < 500) {
+      setIsSearchBarOpen(true);
+    } else {
+      setIsSearchBarOpen(false);
+    }
+    window.addEventListener("resize", () => {
+      if (window.innerWidth < 500) {
+        setIsSearchBarOpen(true);
+      } else {
+        setIsSearchBarOpen(false);
+      }
+    });
+    console.log(window.innerWidth);
+  }, []);
+
   return (
     <div className="header__container">
       <div className="header__container__content">
-        <Link to="/">
+        <Link
+          to="/"
+          style={window.innerWidth < 500 ? { marginBottom: 20 } : null}
+        >
           <img src={logo} alt="logo" className="header__container__logo" />
         </Link>
         <div

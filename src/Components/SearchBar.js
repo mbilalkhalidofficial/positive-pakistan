@@ -3,16 +3,23 @@ import { Search, X } from "react-feather";
 
 export default function SearchBar({ setIsSearchBarOpen }) {
   return (
-    <form action="" className="search__bar">
-      <button className="search__bar__btn" type="button">
-        <X
-          size={18}
-          color="currentColor"
-          onClick={() => {
-            setIsSearchBarOpen(false);
-          }}
-        />
-      </button>
+    <form
+      action=""
+      className="search__bar"
+      style={window.innerWidth < 500 ? null : { minHeight: 50 }}
+    >
+      {window.innerWidth < 500 ? null : (
+        <button className="search__bar__btn" type="button">
+          <X
+            size={18}
+            color="currentColor"
+            onClick={() => {
+              setIsSearchBarOpen(false);
+            }}
+          />
+        </button>
+      )}
+
       <input
         type="text"
         className="search__bar__field"
