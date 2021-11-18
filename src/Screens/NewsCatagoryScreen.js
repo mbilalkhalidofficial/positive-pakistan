@@ -5,7 +5,7 @@ import NewsCatagory from "../Components/NewsCatagory";
 import CityCard from "../Components/CityCard";
 import RecentNewsCard from "../Components/RecentNewsCard";
 
-export default function NewsCatagoryScreen() {
+export default function NewsCatagoryScreen({ title }) {
   return (
     <div className="container catagory__container">
       <div className="catagory__container__header">
@@ -14,7 +14,7 @@ export default function NewsCatagoryScreen() {
           alt="catagoryBackgroundImg"
           className="catagory__container__header__img"
         />
-        <div className="catagory__container__header__content">کھیل</div>
+        <div className="catagory__container__header__content">{title}</div>
       </div>
       <div className="catagory__container__content">
         <div className="home__container__trending__catagory">

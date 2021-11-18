@@ -15,8 +15,32 @@ export default function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomeScreen />} />
-          <Route path="catagory/:id" element={<NewsCatagoryScreen />} />
+          <Route
+            path="catagory/pakistan"
+            element={<NewsCatagoryScreen title="پاکستان" />}
+          />
+          <Route
+            path="/catagory/global"
+            element={<NewsCatagoryScreen title="عالمی" />}
+          />
+          <Route
+            path="/catagory/play"
+            element={<NewsCatagoryScreen title="کھیل" />}
+          />
+          <Route
+            path="/catagory/science"
+            element={<NewsCatagoryScreen title="سائنس" />}
+          />
+          <Route
+            path="/catagory/photos"
+            element={<NewsCatagoryScreen title="تصاویر" />}
+          />
+          <Route
+            path="/catagory/videos"
+            element={<NewsCatagoryScreen title="ویڈیو" />}
+          />
           <Route path="/news-details/:id" element={<NewsDetailsScreen />} />
+          <Route path="/contact" element={<NewsDetailsScreen />} />
         </Routes>
       </div>
     </BrowserRouter>

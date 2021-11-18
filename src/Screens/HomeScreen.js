@@ -63,7 +63,7 @@ export default function HomeScreen() {
         <div className="home__container__trending__topics__col">
           <TrendingTopicsCard
             trending__topics__img={trending__topics__img1}
-            style={{ height: "50%" }}
+            style={{ height: "48%" }}
           />
           <TrendingTopicsCard
             trending__topics__img={trending__topics__img2}
