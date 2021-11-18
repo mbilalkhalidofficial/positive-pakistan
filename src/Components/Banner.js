@@ -8,7 +8,7 @@ export default function Banner() {
       gradient={false}
       className="banner__container"
     >
-      {/* <div className="banner__container__spacer"></div> */}
+      <div className="banner__container__spacer"></div>
       امریکی تعلقات پر نظر رکھنے والے اکثر ماہرین امریکی تعلقات پر نظر رکھنے
       والے اکثر ماہرین امریکی تعلقات پر نظر رکھنے والے اکثر ماہرین امریکی تعلقات
       پر نظر رکھنے والے اکثر ماہرین امریکی تعلقات پر نظر رکھنے والے اکثر ماہرین
