@@ -636,7 +636,44 @@ body {
   color: $text-color;
   margin-bottom: 2em;
 }
-
+.footer__container {
+  background-color: $text-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.footer__container__content {
+  width: 100%;
+  max-width: 1440px;
+  padding: 5em 2em;
+}
+.footer__container__content__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid $secondary;
+}
+.footer__link {
+  font-size: 18px;
+  color: $white;
+  padding: 0.7em 1em;
+  font-weight: bold;
+  border-radius: 50px;
+}
+.footer__link:hover {
+  transition: 300ms ease-in-out;
+  color: $primary;
+}
+.footer__container__content__bottom {
+  font-size: 18px;
+  color: $gray;
+  text-align: center;
+}
 @media (max-width: 1440px) {
   .header__container__content,
   .container {

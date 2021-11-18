@@ -35,8 +35,8 @@ export default function Header() {
           ) : null}
           <div className="header__container__nav__links">
             <NavLink label="رابط کریں" path="/contact" />
-            <NavLink label="ویڈیو" path="/catagory/videos" />
-            <NavLink label="تصاویر" path="/catagory/photos" />
+            <NavLink label="تازہ ترین" path="/catagory/latest" />
+            <NavLink label="موسم" path="/catagory/season" />
             <NavLink label="سائنس" path="/catagory/science" />
             <NavLink label="کھیل" path="/catagory/play" />
             <NavLink label="عالمی خبریں" path="/catagory/global" />

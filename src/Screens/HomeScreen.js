@@ -121,24 +121,6 @@ export default function HomeScreen() {
           <NewsCard />
           <NewsCard />
         </NewsCatagory>
-        <NewsCatagory title="عا لمی خبریں" path="/global-news">
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-        </NewsCatagory>
-        <NewsCatagory title="عا لمی خبریں" path="/global-news">
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-        </NewsCatagory>
-        <NewsCatagory title="عا لمی خبریں" path="/global-news">
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-          <NewsCard />
-        </NewsCatagory>
       </div>
     </div>
   );
