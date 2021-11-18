@@ -13,10 +13,10 @@ export default function Header() {
         <Link to="/">
           <img src={logo} alt="logo" className="header__container__logo" />
         </Link>
-        <div className="header__container__nav">
-          <button className="menu__btn">
-            <Menu size={18} color="currentColor" />
-          </button>
+        <div
+          className="header__container__nav"
+          style={isSearchBarOpen ? { flex: 1, maxWidth: 700 } : null}
+        >
           <div className="search__btn">
             <Search size={18} color="currentColor" />
             <input
@@ -33,14 +33,16 @@ export default function Header() {
           {isSearchBarOpen ? (
             <SearchBar setIsSearchBarOpen={setIsSearchBarOpen} />
           ) : null}
-          <NavLink label="رابط کریں" path="/contact" />
-          <NavLink label="ویڈیو" path="/catagory/videos" />
-          <NavLink label="تصاویر" path="/catagory/photos" />
-          <NavLink label="سائنس" path="/catagory/science" />
-          <NavLink label="کھیل" path="/catagory/play" />
-          <NavLink label="عالمی خبریں" path="/catagory/global" />
-          <NavLink label="پاکستان" path="/catagory/pakistan" />
-          <NavLink label="صفحہ اول" path="/" defaultChecked={true} />
+          <div className="header__container__nav__links">
+            <NavLink label="رابط کریں" path="/contact" />
+            <NavLink label="ویڈیو" path="/catagory/videos" />
+            <NavLink label="تصاویر" path="/catagory/photos" />
+            <NavLink label="سائنس" path="/catagory/science" />
+            <NavLink label="کھیل" path="/catagory/play" />
+            <NavLink label="عالمی خبریں" path="/catagory/global" />
+            <NavLink label="پاکستان" path="/catagory/pakistan" />
+            <NavLink label="صفحہ اول" path="/" defaultChecked={true} />
+          </div>
         </div>
       </div>
     </div>
